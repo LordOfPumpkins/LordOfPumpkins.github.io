@@ -38,6 +38,7 @@ header {
 @media only screen and (min-width: 600px) {
     #title {
         justify-self: center;
+        padding-left: 1rem;
     }
 
     nav > #hvr-grow {
