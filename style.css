@@ -1,4 +1,4 @@
-@import url("mordor-landscape.jpg");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@300&family=Poppins:wght@300;500&display=swap');
 
 :root {
     --text-color: #FFFFFF;
@@ -26,7 +26,6 @@ header {
     gap: 3vw;
     align-items: center;
     justify-content: space-between;
-    /* background: red; */
     font-size: 150%;
     padding: 2rem;
 }
@@ -37,6 +36,7 @@ header {
 
 #title {
     justify-self: center;
+    padding-left: 5%;
 }
 
 .navigation a {
