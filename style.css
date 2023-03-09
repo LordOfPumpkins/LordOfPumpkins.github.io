@@ -27,42 +27,38 @@ header {
     align-items: center;
     justify-content: space-between;
     font-size: 150%;
-    padding: 2vw;
+    padding: 2rem;
 }
 
 #logo {
-    width: 6rem;
+    height: 6rem;
 }
 
-#title {
-    justify-self: center;
-}
 
 @media only screen and (min-width: 600px) {
-    
+    #title {
+        justify-self: center;
+    }
+
+    nav > #hvr-grow {
+        text-decoration: none;
+        padding-left: 2rem;
+    }
 }
 
-.nav {
-    width: 3rem;
-}
-
-.icon {
-    width: 100%;
-}
 
 @media only screen and (max-width: 600px) {
-    .nav {
-        width: 3rem;
-    }
-
-    .icon {
-        width: 100%;
+    nav {
         display: none;
     }
-}
 
-.nav {
-    text-decoration: none;
+    nav > #hvr-grow {
+        display: none;
+    }
+
+    #title {
+        justify-self: right;
+    }
 }
 
 #hvr-grow {
