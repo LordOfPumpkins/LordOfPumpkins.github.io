@@ -12,6 +12,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     user-select: none;
+    overflow: hidden;
 }
 
 header {
@@ -37,19 +38,6 @@ header {
 #title {
     justify-self: center;
     padding-left: 6%;
-}
-
-@media only screen and (max-width: 600px) {
-    .navigation {
-        display: flex;
-        flex-direction: column;
-        padding: 5px;
-    }
-
-    .navigaton a {
-        text-decoration: none;
-        color: red;
-    }
 }
 
 .navigation a {
