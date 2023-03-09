@@ -1,4 +1,4 @@
-@import url("mordor-landscape.png");
+@import url("mordor-landscape.jpg");
 
 :root {
     --text-color: #FFFFFF;
@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("mordor-landscape.png");
+    background-image: url("mordor-landscape.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
