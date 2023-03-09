@@ -39,12 +39,25 @@ header {
     padding-left: 6%;
 }
 
-.navigation a {
-    position: relative;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 20px;
+@media only screen and (max-width: 600px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
 
+    .navigaton a {
+        text-decoration: none;
+        color: red;
+    }
+}
+
+.navigation a {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    color: blue;
+    text-decoration: none;
 }
 
 #hvr-grow {
@@ -74,7 +87,7 @@ body {
 .wrapper {
     position: relative;
     min-height: fit-content;
-    max-height: 50vh;
+    max-width: 95vw;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
@@ -83,8 +96,8 @@ body {
 
 .download {
     margin-left: 50%;
-    margin-bottom: 4vh;
-    margin-top: 4vh;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     transform: translateX(-50%);
 
     width: 130px;
