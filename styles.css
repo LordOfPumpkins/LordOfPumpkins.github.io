@@ -13,7 +13,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("https://cdn.openart.ai/stable_diffusion/096bd28b845aa4e140e4912a9129edf431c20e14_2000x2000.webp");
+    background-image: url("mordor-landscape.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 main {
