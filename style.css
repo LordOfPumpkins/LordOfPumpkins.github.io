@@ -38,9 +38,27 @@ header {
     justify-self: center;
 }
 
+@media only screen and (min-width: 600px) {
+    
+}
+
+.nav {
+    width: 3rem;
+}
+
 .icon {
-    height: 3rem;
-    min-width: fit-content;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        width: 3rem;
+    }
+
+    .icon {
+        width: 100%;
+        display: none;
+    }
 }
 
 .nav {
