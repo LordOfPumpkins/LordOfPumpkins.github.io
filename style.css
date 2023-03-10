@@ -95,4 +95,8 @@ body {
     .container {
         font-size: 18px;
     }
+
+    #version {
+        font-size: 27px;
+    }
 }
