@@ -38,9 +38,10 @@ body {
 
 .child {
     position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
-
+    top: 25%;
+    transform: translate(0, -50%);
+    margin: auto;
+    margin-top: 10vh;
     height: fit-content;
     width: 90vw;
     max-width: 500px;
