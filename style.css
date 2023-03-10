@@ -12,6 +12,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     user-select: none;
+    text-decoration: none;
     overflow: hidden;
 }
 
