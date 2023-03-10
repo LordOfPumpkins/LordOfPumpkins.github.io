@@ -3,20 +3,29 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     border-bottom: 2px solid var(--border-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 150%;
 }
 
 @media only screen and (min-width: 600px) {
-    /* Nothing to see here (yet) */
+    header {
+        font-size: 150%;
+    }
+
+    .left img {
+        height: 100px;
+    }
 }
 
 
 @media only screen and (max-width: 600px) {
+    header {
+        font-size: 120%;
+    }
+    
     .middle {
         justify-self: left;
     }
@@ -24,11 +33,10 @@ header {
     .right {
         display: none
     }
-}
 
-.left img {
-    object-fit: contain;
-    height: 100px;
+    .left img {
+        height: 80px;
+    }
 }
 
 .left {
@@ -47,7 +55,7 @@ header {
 .right {
     flex: 1;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #hvr-grow {
