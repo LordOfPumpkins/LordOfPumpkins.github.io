@@ -12,7 +12,7 @@ header {
 }
 
 @media only screen and (min-width: 600px) {
-    
+    /* Nothing to see here (yet) */
 }
 
 
@@ -43,6 +43,7 @@ header {
 .right {
     flex: 1;
     text-align: right;
+    text-decoration: none;
     margin-right: 2vw;
 }
 
