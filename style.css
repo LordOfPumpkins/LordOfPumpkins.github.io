@@ -25,25 +25,23 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     font-size: 150%;
     padding: 2rem;
 }
 
 #logo {
     height: 6rem;
+    justify-self: left;
 }
 
+#title {
+    justify-self: middle;
+}
 
 @media only screen and (min-width: 600px) {
-    #title {
-        justify-self: center;
-        padding-left: 1rem;
-    }
-
-    nav > #hvr-grow {
+    nav {
         text-decoration: none;
-        padding-left: 2rem;
+        justify-self: right;
     }
 }
 
@@ -55,10 +53,6 @@ header {
 
     nav > #hvr-grow {
         display: none;
-    }
-
-    #title {
-        justify-self: right;
     }
 }
 
