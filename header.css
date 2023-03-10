@@ -43,7 +43,6 @@ header {
 .right {
     flex: 1;
     text-align: right;
-    text-decoration: none;
     margin-right: 2vw;
 }
 
