@@ -8,13 +8,13 @@ addCheckboxListener(skybox);
 function addCheckboxListener (element) {
     element.addEventListener("click", function() {
         if (!optifine.checked && !skybox.checked) {
-            download.download = "§c§lMORDOR§7-§flight.zip"
+            download.href = "§c§lMORDOR§7-§flight.zip"
         }
         else if (optifine.checked && !skybox.checked) {
-            download.download = "§c§lMORDOR§7-§fof.zip"
+            download.href = "§c§lMORDOR§7-§fof.zip"
         }
         else if (optifine.checked && skybox.checked || !optifine.checked && skybox.checked) {
-            download.download = "§c§lMORDOR§7-§fv4.zip"
+            download.href = "§c§lMORDOR§7-§fv4.zip"
         }
     })
 }
