@@ -1,16 +1,19 @@
-addCheckboxClickListener (
-    document.getElementById("optifine")
-)
-addCheckboxClickListener (
-    document.getElementById("skybox")
-)
+const optifine = document.getElementById("optifine")
+const skybox = document.getElementById("skybox")
 
-function addCheckboxClickListener (element) {
+addCheckboxListener(optifine);
+addCheckboxListener(skybox);
+
+function addCheckboxListener (element) {
     element.addEventListener("click", function() {
-        if (element.checked) {
-          // do something if the checkbox is checked
-        } else {
-          // do something else if the checkbox is not checked
+        if (optifine.checked && !skybox.checked) {
+            
+        }
+        else if (!optifine.checked && skybox.checked) {
+    
+        }
+        else {
+    
         }
     })
 }
