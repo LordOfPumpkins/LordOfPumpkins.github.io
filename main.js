@@ -10,9 +10,6 @@ function addCheckboxListener (element) {
         if (optifine.checked && !skybox.checked) {
             
         }
-        else if (!optifine.checked && skybox.checked) {
-    
-        }
         else {
     
         }
