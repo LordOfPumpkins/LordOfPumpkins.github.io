@@ -49,19 +49,21 @@ body {
 }
 
 #download {
-    margin-left: 50%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    transform: translateX(-50%);
+    display: block;
     width: 130px;
     height: 50px;
+    margin-left: 50%;
+    margin-bottom: 1rem;
+    transform: translateX(-50%);
     background: transparent;
-    border: 2px solid #fff;
     outline: none;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #fff;
     border-radius: 6px;
-    cursor: pointer;
-    font-size: 1.1em;
     color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
     transition: .5s;
 }
 
