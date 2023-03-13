@@ -1,5 +1,6 @@
 const optifine = document.getElementById("optifine")
 const skybox = document.getElementById("skybox")
+const download = document.getElementByClass("download")
 
 addCheckboxListener(optifine);
 addCheckboxListener(skybox);
